@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda</title>
+
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/plugin/toastr/toastr.min.css">
+
+</head>
+
+<body>
+
+    <div class="row">
+        <div class="col-md-4">
+
+       <!--      <div class="card">
+                <div class="card-header text-white bg-success">
+                    <h3 class="text-center"> Confirmacion </h3>
+                </div>
+                <div class="card-body">
+
+                    <ul class="list-group">
+                        <li class="list-group-item">Tipo de contacto: Academico</li>
+                        <li class="list-group-item">Nombre: Leo</li>
+                        <li class="list-group-item">telefono: 123</li>
+                    
+                      </ul>
+
+                      <div class="margen-arriba-2">
+                          <button class="btn btn-warning">Atras</button>
+                          <button class="btn btn-success">Finalizar</button>
+                      </div>
+
+                </div>
+            </div> -->
+
+        </div>
+
+        <div id="content-container" class="col-md-4">
+
+            <div class="card">
+                <div class="card-header text-white bg-dark">
+                    <h3 class="text-center"> Agenda Js </h3>
+                </div>
+                <div class="card-body">
+                    <div class="card-title">
+                        <h3 class="text-center">Completa el formulario</h3>
+                    </div>
+
+                    <div class="mb-3">
+
+                        <label for="nombre" class="form-label">Nombre:</label>
+                        <input type="text" id="nombre" class="form-control">
+
+                    </div>
+
+                    <div class="mb-3">
+
+                        <label for="telefono" class="form-label">Telefono:</label>
+                        <input type="text" id="telefono" class="form-control">
+
+                    </div>
+
+
+                     <div id="radio-container" class="mb-3">
+
+                        <label for="tipo-contacto" class="form-label">Tipo de contacto: </label>
+
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="RadioContactType" id="radio-personal"
+                                value="Personal">
+                            <label class="form-check-label" for="radio-personal">Personal</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="RadioContactType" id="radio-laboral"
+                                value="Laboral">
+                            <label class="form-check-label" for="radio-laboral">Laboral</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="RadioContactType" id="radio-academico"
+                                value="Academico">
+                            <label class="form-check-label" for="radio-academico">Academico</label>
+                        </div>
+
+                    </div> 
+
+                    <div>
+                        <button class="btn btn-primary float-end margen-izq-2" id="btn-register">Registrar</button>
+                        <button class="btn btn-warning float-end" id="btn-clear">Limpiar</button>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="col-md-4"></div>
+    </div>
+
+    <div class="row" id="contact-container">
+
+         
+
+    </div>
+
+
+    <script src="assets/js/jquery/jquery-3.5.1.min.js"></script>
+    <script src="assets/js/plugin/toastr/toastr.min.js"></script>
+    <script src="assets/js/index/IndexJqueryP.js"></script>
+
+
+</body>
+
+</html>
